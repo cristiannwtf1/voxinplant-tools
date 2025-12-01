@@ -145,7 +145,8 @@ output/history/BASE_HISTORICA_UNIFICADA.xlsx
 python corregir_swap_dia.py
 4. Auditar el histórico
 bash
-Copiar código
+
+
 python auditar_hist.py
 📊 Impacto Operativo
 Este sistema permitió:
