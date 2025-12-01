@@ -3,7 +3,7 @@
 Conjunto de scripts en Python diseñados para procesar, consolidar y auditar los reportes de llamadas generados por campañas de Voximplant.  
 Este proyecto automatiza tareas repetitivas que anteriormente realizaban procesos manuales en Excel, reduciendo tiempos operativos y asegurando la calidad y consistencia de los datos históricos.
 
----
+
 
 ## 🚀 Objetivo del Proyecto
 
@@ -15,7 +15,7 @@ Optimizar el flujo de trabajo de análisis de campañas de llamadas, permitiendo
 - Detectar errores y aplicar correcciones especiales.
 - Generar bases depuradas listas para BI y auditoría.
 
----
+
 
 ## 🧱 Estructura del Proyecto
 
@@ -42,7 +42,7 @@ Copiar código
 > 🔒 Por políticas de datos, en este repositorio **no se incluyen archivos reales**.  
 > Solo se subirán ejemplos sintéticos si se requieren en el futuro.
 
----
+
 
 ## 🧩 Scripts Principales
 
@@ -57,10 +57,6 @@ Procesa los reportes del día ubicados en la carpeta `inbox/`:
 Genera archivos como:
 output/daily/Report_2025-11-11_consolidado.xlsx
 
-yaml
-Copiar código
-
----
 
 ### `fusionar_historicos.py`
 Combina:
@@ -79,7 +75,6 @@ Copiar código
 
 Permite contar con un repositorio único y confiable para análisis o BI.
 
----
 
 ### `corregir_swap_dia.py`
 Aplica reglas de corrección específicas cuando se detectan errores en los reportes.  
