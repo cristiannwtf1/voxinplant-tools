@@ -24,16 +24,25 @@ La estructura del proyecto en este repositorio es:
 voxinplant_tools/
 │
 ├── auditar_hist.py
+
 ├── corregir_swap_dia.py
+
 ├── fusionar_historicos.py
+
 ├── voxinplant_consolidador.py
+
 ├── requirements_voxinplant.txt
 │
 ├── archive_raw/ # Archivos crudos descargados desde Voximplant (ejemplo vacío)
+
 ├── inbox/ # Reportes nuevos pendientes por procesar
+
 ├── logs/ # Logs generados por los scripts
+
 └── output/
+
 ├── daily/ # Consolidados diarios
+
 └── history/ # Histórico unificado, backups y resúmenes
 
 
