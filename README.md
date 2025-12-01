@@ -77,8 +77,7 @@ Actualiza archivos como:
 output/history/HISTORICO_UNIQUE.xlsx
 output/history/BASE_HISTORICA_UNIFICADA.xlsx
 
-yaml
-Copiar código
+
 
 Permite contar con un repositorio único y confiable para análisis o BI.
 
@@ -105,8 +104,6 @@ Realiza validaciones automáticas:
 
 requirements_voxinplant.txt
 
-yaml
-Copiar código
 
 
 
@@ -126,30 +123,25 @@ pip install -r requirements_voxinplant.txt
 1. Procesar el reporte diario
 Coloca el archivo del día en:
 
-Copiar código
+
 inbox/
 Ejecuta:
 
-bash
-Copiar código
+
 python voxinplant_consolidador.py
 Esto genera:
 
-bash
-Copiar código
+
 output/daily/Report_YYYY-MM-DD_consolidado.xlsx
 2. Actualizar histórico unificado
-bash
-Copiar código
+
 python fusionar_historicos.py
 Genera:
 
-bash
-Copiar código
+
 output/history/BASE_HISTORICA_UNIFICADA.xlsx
 3. Aplicar correcciones especiales
-bash
-Copiar código
+
 python corregir_swap_dia.py
 4. Auditar el histórico
 bash
