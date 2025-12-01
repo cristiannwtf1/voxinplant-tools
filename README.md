@@ -36,8 +36,6 @@ voxinplant_tools/
 ├── daily/ # Consolidados diarios
 └── history/ # Histórico unificado, backups y resúmenes
 
-yaml
-Copiar código
 
 > 🔒 Por políticas de datos, en este repositorio **no se incluyen archivos reales**.  
 > Solo se subirán ejemplos sintéticos si se requieren en el futuro.
@@ -80,7 +78,6 @@ Permite contar con un repositorio único y confiable para análisis o BI.
 Aplica reglas de corrección específicas cuando se detectan errores en los reportes.  
 Ejemplo: el caso del *swap* masivo del 11/11/2025.
 
----
 
 ### `auditar_hist.py`
 Realiza validaciones automáticas:
@@ -90,7 +87,7 @@ Realiza validaciones automáticas:
 - Detención de inconsistencias
 - Reglas internas de calidad de datos
 
----
+
 
 ## 📦 Requisitos
 
@@ -102,7 +99,7 @@ requirements_voxinplant.txt
 yaml
 Copiar código
 
----
+
 
 ## 🔧 Instalación
 
